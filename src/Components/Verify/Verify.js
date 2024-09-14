@@ -256,7 +256,7 @@ const Verify = () => {
   const ImageUpload = (event) => {
     console.log(event.target.files[0]);
     const ImgData = new FormData();
-    ImgData.set("key", "b5da77804758fc289f16eedcf7b5775c");
+    ImgData.set("key", "3b61f7918dc1a39c2999937d1c16a97d");
     ImgData.append("image", event.target.files[0]);
 
     axios
@@ -272,7 +272,7 @@ const Verify = () => {
   const ImageUp = (event) => {
     console.log(event.target.files[0]);
     const ImgData = new FormData();
-    ImgData.set("key", "b5da77804758fc289f16eedcf7b5775c");
+    ImgData.set("key", "3b61f7918dc1a39c2999937d1c16a97d");
     ImgData.append("image", event.target.files[0]);
 
     axios
@@ -288,7 +288,7 @@ const Verify = () => {
   const ImageUploaded = (event) => {
     console.log(event.target.files[0]);
     const ImgData = new FormData();
-    ImgData.set("key", "b5da77804758fc289f16eedcf7b5775c");
+    ImgData.set("key", "3b61f7918dc1a39c2999937d1c16a97d");
     ImgData.append("image", event.target.files[0]);
 
     axios
@@ -304,7 +304,7 @@ const Verify = () => {
   const ImageUploads = (event) => {
     console.log(event.target.files[0]);
     const ImgData = new FormData();
-    ImgData.set("key", "b5da77804758fc289f16eedcf7b5775c");
+    ImgData.set("key", "3b61f7918dc1a39c2999937d1c16a97d");
     ImgData.append("image", event.target.files[0]);
 
     axios
@@ -372,7 +372,8 @@ const Verify = () => {
                 Your photo must show you holding a handwritten sing showing the
                 following information : <br /> 1: Your username and today's date
                 written on it (this should match your profile) <br />
-                2: Your face while holding a piece that has "PrivateDelights".
+                2: The phrase "Private Delights" (The verification process of
+                PrivateDelights and Eros has been integrated)
                 <br />
                 3: Hand and arm holding the paper fully visible
               </p>
